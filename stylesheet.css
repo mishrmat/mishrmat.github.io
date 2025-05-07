@@ -1,14 +1,9 @@
-{
 * {margin: 0; padding: 0;}
-}
 
 #wrapper {
     width: 80%;
     margin: auto;
     }
-
-// <weight>: Use a value from 200 to 700
-// <uniquifier>: Use a unique and descriptive class name
 
   .londrina-sketch-regular {
     font-family: "Londrina Sketch", sans-serif;
@@ -19,13 +14,19 @@
 header {
   width: 100%;
   margin: auto;
-  padding-block: 0%;
+  padding-block: 5%;
+  font-family:"Londrina Sketch", sans-serif;
+font-size: 3em;
+color: rgb(255, 64, 0);
+line-height: 0.5em;
+padding-top: 10px;
+padding-bottom: 50px;
 }
 
 nav {
   width: 100%;
   margin: auto;
-  padding-block: 0%;
+  padding-block: 3%;
 }
 
 footer {
@@ -34,6 +35,8 @@ footer {
   padding-block: 0%;
 }
 
+.columns {float:left;
+}
 .columns {float:left;}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -47,16 +50,15 @@ footer {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+.clear-left
 
 h1 {
 font-family:"Londrina Sketch", sans-serif;
 font-size: 5em;
-line-height: 0.5em;
 color: rgb(255, 64, 0);
-text-transform: capitalize;
+line-height: 0.5em;
 padding-top: 5px;
 padding-bottom: 5px;
-
 }
 
 h2 {
@@ -64,8 +66,8 @@ font-family:"Londrina Sketch", sans-serif;
 font-size: 2em;
 color: rgb(255, 64, 0);
 line-height: 0.5em;
-padding-top: 5px;
-padding-bottom: 0px;
+padding-top: 10px;
+padding-bottom: 5px;
 }
 
 body {
