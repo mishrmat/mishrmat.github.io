@@ -1,40 +1,48 @@
 {
-    padding: 0;
-    margin: 0;
+* {margin: 0; padding: 0;}
 }
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    }
 
 // <weight>: Use a value from 200 to 700
 // <uniquifier>: Use a unique and descriptive class name
 
-.cascadia-code-<uniquifier> {
-  font-family: "Cascadia Code", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+.goldman-regular {
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .goldman-bold {
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }  
 
-.coral-pixels-regular {
-    font-family: "Coral Pixels", serif;
+  .homenaje-regular {
+    font-family: "Homenaje", sans-serif;
     font-weight: 400;
     font-style: normal;
   }  
 
 h1 {
-font-family:"Cascadia Code", sans-serif;
+font-family:"Goldman", sans-serif;
 font-size: 4em;
 line-height: 0.5em;
-color: rgb(0, 17, 255);
+color: rgb(205, 17, 0);;
 text-transform: capitalize;
-background-color: rgb(209, 224, 251);
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
 
 }
 
 h2 {
-font-family:"Cascadia Code", sans-serif;
+font-family:"Goldman", sans-serif;
 font-size: 2em;
-color: rgb(0, 17, 255);
+color: rgb(205, 17, 0);
 line-height: 0.5em;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -42,7 +50,7 @@ padding-bottom: 5px;
 
 body {
 line-height: 1.1em;
-font-family: "Coral Pixels", serif;
+font-family: "Homenaje", sans-serif;
 font-weight: 100;
 padding-left: 25px;
 padding-right: 25px;
@@ -50,7 +58,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 text-align: left;
 background-repeat: repeat;
-background-image: url('grid.png');
+background-image: url('orange.jpg');
 color: rgb(0, 0, 0);
 }
 
@@ -75,5 +83,5 @@ li a:active {
 li a:hover {
     text-decoration: underline;
     border-bottom: 1px rgb(0, 0, 0);
-    color:rgb(0, 17, 255);
+    color:rgb(255, 87, 10);
 }
