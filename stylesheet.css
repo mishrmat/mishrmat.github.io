@@ -10,29 +10,52 @@
 // <weight>: Use a value from 200 to 700
 // <uniquifier>: Use a unique and descriptive class name
 
-.goldman-regular {
-    font-family: "Goldman", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.love-ya-like-a-sister-regular {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
   
   .goldman-bold {
     font-family: "Goldman", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }  
+  } 
 
-  .homenaje-regular {
-    font-family: "Homenaje", sans-serif;
+  .londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }  
+  }
+  
+
+header {
+  width: 50%;
+  margin: auto;
+  padding-block: 0%;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  padding-block: 0%;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  padding-block: 0%;
+}
+
+.columns {float:left;}
+.col-1 {width: 50%;}
+.col-2 {width: 50%;}
 
 h1 {
-font-family:"Goldman", sans-serif;
-font-size: 4em;
+font-family:"Londrina Sketch", sans-serif;
+font-size: 5em;
 line-height: 0.5em;
-color: rgb(205, 17, 0);;
+color: rgb(255, 64, 0);
 text-transform: capitalize;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -40,9 +63,9 @@ padding-bottom: 5px;
 }
 
 h2 {
-font-family:"Goldman", sans-serif;
+font-family:"Londrina Sketch", sans-serif;
 font-size: 2em;
-color: rgb(205, 17, 0);
+color: rgb(255, 64, 0);
 line-height: 0.5em;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -58,8 +81,14 @@ padding-top: 5px;
 padding-bottom: 5px;
 text-align: left;
 background-repeat: repeat;
-background-image: url('orange.jpg');
+background-image: url('yellostar.gif');
 color: rgb(0, 0, 0);
+}
+
+img {
+  width: 200px;
+  margin:auto;
+  padding-block: 0%;
 }
 
 a:link {
