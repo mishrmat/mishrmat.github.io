@@ -1,0 +1,22 @@
+
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: relative;
+  animation-name: slideAndSpin;
+  animation-duration: 4s;
+}
+
+@keyframes slideAndSpin {
+  from {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 300px;
+    transform: rotate(360deg);
+  }
+}
+</style>
